@@ -1,0 +1,149 @@
+.content {
+    font-size: 40px;
+    padding-bottom: 300px;
+    color: rgb(101, 99, 145);
+    position: relative;
+    left: 50%;
+    width: 500px;
+    border-style:groove;
+    border-width: 1px;
+    padding: 40px;
+    /* display: none; */
+    /*visibility: hidden;*/
+}
+
+.content:hover {
+    color:rgb(206, 235, 239);
+}
+
+a:hover {
+    color: blue;
+    transition: color 1s ease-in-out;
+
+}
+
+a{
+    position:fixed;
+    left:1400px;
+    top: 20px;
+    font-size:smaller;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+
+#hello {
+    background-color: rgb(171, 202, 255);
+
+}
+
+#Blue1{
+    position:absolute;
+left: 600px;
+top: 1px;
+}
+#Blue2{
+position:absolute;
+left:10px;
+top: 1px;
+/* margin: 100px; */
+}
+#Blue3{
+    position:absolute;
+    left:10px;
+    top:1450px;
+}
+#Blue4{
+    position:absolute;
+    left:600px;
+    top:1450px;
+}
+#bye {
+    background-color: aquamarine;
+}
+
+
+h1{ 
+    position:absolute;
+    left: 500px;
+    top: 500px;
+    color:rgb(182, 196, 224);
+    font-size: 200px
+
+}
+
+
+
+h2{ 
+    position:absolute;
+    left: 500px;
+    top: 1100px;
+    color:rgb(182, 196, 224);
+    font-size: 200px
+
+}
+
+h3{ 
+    position:absolute;
+    left: 500px;
+    top: 2100px;
+    color:rgb(182, 196, 224);
+    font-size: 200px
+
+}
+
+p.content{
+    font:Arial;
+}
+
+
+body {
+    background-color:rgb(101, 99, 145);
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+#title{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(149, 145, 255);
+    width: 500px;
+    text-align: center;
+    /* height: 200px; */
+    border-style: solid;
+    border-width: 1px;
+    padding: 200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding-bottom: 300px; */
+    position: fixed;
+    left: 20%;
+}
+span{
+  font-weight: 500;
+}
+
+#canvasContainer{
+    position:absolute;
+    left: 500px;;
+    top:5000px;
+
+}
+
+button{
+    position:fixed;
+    left: 1400px;
+    top: 200px;
+    
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+.imagediv {
+    position: absolute;
+    margin: 1px;
+    top: 270px;
+    z-index: -1;
+}
